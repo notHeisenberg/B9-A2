@@ -1,0 +1,11 @@
+@media screen and (max-width:600px) {
+    #one{
+        flex-wrap: wrap;
+    }
+    #one .container-1, #one .container-2 {
+        width: 100%;
+    }
+    #one .container-2 img{
+        width: 100%;
+    }
+}
