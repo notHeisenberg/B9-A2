@@ -124,9 +124,11 @@ footer .container .text {
 }
 
 #one {
+
     width: 80%;
-    margin: 0 auto;
+    margin: 100px auto;
     display: flex;
+    flex-wrap: wrap;
     text-align: start;
     align-items: center;
 }
@@ -138,7 +140,9 @@ footer .container .text {
     /* background-color: #424247; */
 }
 
-#one .container-1 h2 {
+#one .container-1 h2,
+#three .title h3,
+#five .container-1 h3 {
     color: #131318;
     width: 95%;
     font-family: Mulish;
@@ -146,7 +150,9 @@ footer .container .text {
     font-weight: 800;
 }
 
-#one .container-1 .text {
+#one .container-1 .text,
+#three .title .text,
+#five .container-1 p {
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 1rem;
@@ -160,14 +166,14 @@ footer .container .text {
 }
 
 #one .container-2 {
-    width: 60%;
-    height:100%;
+    width: auto;
+    height: 100%;
 
 }
 
 #one .container-2 img {
-    width: 70%;
-    height: 100%;
+    width: 100%;
+    height: auto;
 
 }
 
@@ -184,6 +190,106 @@ footer .container .text {
     border-radius: 5px;
     margin-top: 5px;
 
+}
+
+#three {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#three .title,
+#three .title .text {
+    text-align: center;
+}
+
+#three .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    overflow: auto;
+}
+
+#three .info .content {
+    width: 700px;
+
+}
+
+#five {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+
+#five .container-1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+#five .container-1 input,
+#five .container-1 button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    outline: none;
+}
+
+#five .container-1 button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: #FF5400;
+}
+
+
+#five .container-2 {
+    /* border: 2px solid red; */
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    background: url(/Images/Rectangle\ 8\ \(1\).png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#five .container-2 .content {
+    /* border: 2px solid red; */
+    position: relative;
+    width: 320px;
+    height: 120px;
+    top:240px;
+    left: 330px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+}
+
+#five .container-2 .content .title {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px;
 }
 
 /* footer */

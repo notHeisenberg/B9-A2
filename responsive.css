@@ -2,7 +2,7 @@
     #one{
         flex-wrap: wrap;
     }
-    #one .container-1, #one .container-2 {
+    #one .container-1, #one .container-2,#five .container-1 {
         width: 100%;
     }
     #one .container-2 img{
