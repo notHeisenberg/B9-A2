@@ -70,57 +70,80 @@ footer .container .text {
 }
 
 #header {
-    position: relative;
-    width: 90%;
-    height: 500px;
-    margin: 0 auto;
-    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    border: 2px solid red;
-    visibility: hidden;
-}
-
-#header .content {
-    /* position: relative; */
-    display: flex;
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid blue;
-}
-
-/* #header .content img{
-    width: 100%;
-} */
-
-#header .content .title {
-    position: absolute;
-    top: 10vh;
-    color: #fff;
-    width: 500px;
-    height: 30px;
-    border: 2px solid red;
-    font-family: Mulish;
-    font-size: 50px;
-    font-weight: 800;
-}
-
-#header .content .desctiption {
-    position: absolute;
-    width: 676px;
-    top: 20vh;
-    left: 30vh;
-    color: #ffffff;
+    width: 80%;
     text-align: center;
-    position: absolute;
+    border: 2px solid blue;
+    margin: 0 auto;
+    height: 500px;
+    background-color: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
 
+
+}
+
+#header .container {
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    background: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 16px;
+}
+
+#header .container .title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#header .container .para {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
     font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+#header .container form {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+form>input,
+form>select,
+form>button {
+    width: 174px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #5A5A5D;
+    padding: 10px;
+    text-align: start;
+}
+
+form>button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
 }
 
 #one {
@@ -337,9 +360,59 @@ footer .container .text {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-#two .title, #three .title, #three .description{
+
+#two .title,
+#three .title,
+#three .description {
     margin: 50px auto;
     max-width: 650px;
+}
+
+#own-idea{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+
+#own-idea .container-1{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+#own-idea .container-1 h3{
+    width: 450px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+#own-idea .container-1 ul{
+    padding: 20px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 5px;
+}
+
+#own-idea .container-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+iframe{
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 5px rgba(35, 62, 74, 0.31);
 }
 
 #five {

@@ -1,5 +1,5 @@
 @media screen and (max-width:600px) {
-    #one{  
+    #one,#own-idea,#own-idea .container-1{  
         flex-wrap: wrap;
     }
     #one .container-1, #one .container-2,#five .container-1 ,#five .container-2{
@@ -35,7 +35,10 @@
     #three .info .content{
         width: auto;
         height: auto;
-        
-    }
 
+    }
+    iframe{
+        width: 100%; 
+
+    }
 }
