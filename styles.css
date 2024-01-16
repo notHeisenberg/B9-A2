@@ -69,6 +69,92 @@ footer .container .text {
     color: #424247;
 }
 
+.container_all {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner_h {
+    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding-bottom: 106px;
+}
+
+.gradient_b {
+
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    border-radius: 15px;
+}
+
+.p1 {
+    padding-top: 106px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.p2 {
+    padding-top: 24px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.option_b {
+    width: 85%;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 48px;
+}
+
+select,
+#text {
+    text-indent: 5%;
+    text-overflow: '';
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: rgba(19, 19, 24, 0.651);
+    font-size: 1rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 20%;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+/*
 #header {
     width: 80%;
     text-align: center;
@@ -107,7 +193,7 @@ footer .container .text {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
+
 }
 
 #header .container form {
@@ -145,7 +231,7 @@ form>button {
     border-radius: 8px;
     background: #FF5400;
 }
-
+ */
 #one {
 
     width: 80%;
@@ -156,6 +242,7 @@ form>button {
     justify-content: space-around;
 
 }
+
 
 #one .container-1 {
     width: 40%;
