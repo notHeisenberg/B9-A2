@@ -42,6 +42,7 @@ header {
 }
 
 #nav>.menu-toggle {
+    display: none;
     visibility: hidden;
 }
 

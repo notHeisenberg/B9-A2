@@ -8,6 +8,7 @@
         visibility: hidden;
     }
     #nav>.menu-toggle {
+        display: contents;
         visibility: visible;
     }
     .banner_h 
