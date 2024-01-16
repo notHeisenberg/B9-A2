@@ -19,6 +19,7 @@ hr {
 
 .desctiption {}
 
+
 #nav,
 header {
     display: flex;
@@ -40,7 +41,9 @@ header {
 
 }
 
-#nav>.container-2 {}
+#nav>.menu-toggle {
+    visibility: hidden;
+}
 
 #nav>.container-1>.icon img {
     width: 80%;
@@ -153,85 +156,6 @@ select,
 }
 
 
-
-/*
-#header {
-    width: 80%;
-    text-align: center;
-    border: 2px solid blue;
-    margin: 0 auto;
-    height: 500px;
-    background-color: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-
-
-}
-
-#header .container {
-    width: 100%;
-    height: 100%;
-    border: 2px solid red;
-    background: url(Images/Group\ 13\ \(1\)\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 16px;
-}
-
-#header .container .title {
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-#header .container .para {
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-
-}
-
-#header .container form {
-    display: inline-flex;
-    padding: 16px;
-    align-items: flex-start;
-    gap: 24px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
-}
-
-form>input,
-form>select,
-form>button {
-    width: 174px;
-    height: 50px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    color: #5A5A5D;
-    padding: 10px;
-    text-align: start;
-}
-
-form>button {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    align-items: center;
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 8px;
-    background: #FF5400;
-}
- */
 #one {
 
     width: 80%;
