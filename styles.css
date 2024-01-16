@@ -144,7 +144,8 @@ footer .container .text {
 #one .container-1 h2,
 #three .title h3,
 #five .container-1 h3,
-#two .title h3 {
+#two .title h3,
+#three .description h3 {
     color: #131318;
     width: 95%;
     font-family: Mulish;
@@ -155,7 +156,9 @@ footer .container .text {
 #one .container-1 .text,
 #three .title .text,
 #five .container-1 p,
-#two .title p {
+#two .title p,
+#three .description .text,
+#three .info .content .text {
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 1rem;
@@ -222,7 +225,7 @@ footer .container .text {
     position: relative;
     top: -55%;
     color: #FFF;
-    font-size:3rem;
+    font-size: 3rem;
     text-align: center;
     font-family: Mulish;
     font-weight: 800;
@@ -280,26 +283,63 @@ footer .container .text {
 
 #three {
     width: 80%;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 50px auto;
+
 }
 
 #three .title,
-#three .title .text {
+#three .title .text,
+#three .description {
     text-align: center;
 }
 
 #three .info {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     gap: 20px;
-    overflow: auto;
+    margin-bottom: 80px;
 }
 
 #three .info .content {
-    width: 700px;
+    border: 2px solid red;
+    width: 600px;
+    height: 250px;
+    padding: 30px;
 
+
+
+}
+
+#three .info .content h3 {
+    color: #131318;
+    width: 95%;
+    font-family: Mulish;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#three .info #content-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+#three .info #content-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+#three .info #content-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+#two .title, #three .title, #three .description{
+    margin: 50px auto;
+    max-width: 650px;
 }
 
 #five {

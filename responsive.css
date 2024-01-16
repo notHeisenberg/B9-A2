@@ -32,4 +32,10 @@
         top: -150px;
         font-size:2rem;
     }
+    #three .info .content{
+        width: auto;
+        height: auto;
+        
+    }
+
 }
