@@ -1,11 +1,35 @@
 @media screen and (max-width:600px) {
-    #one{
+    #one{  
         flex-wrap: wrap;
     }
-    #one .container-1, #one .container-2,#five .container-1 {
+    #one .container-1, #one .container-2,#five .container-1 ,#five .container-2{
         width: 100%;
     }
-    #one .container-2 img{
+    #one .container-2 img,#two .images img{
         width: 100%;
+        height: 100%;
+    }
+
+    #five .container-2 .content{
+        width: 70%;
+        top: 14rem;
+        left: 2rem
+    }
+
+    #five .container-2 .content .title{
+        padding: 0;
+    }
+
+    #two .images{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #two .images img{
+        height: 300px;
+    }
+    #two .images p{
+        top: -150px;
+        font-size:2rem;
     }
 }
